@@ -1,6 +1,7 @@
-const isSunnyDay = true;
-const isHomeworkCompleted = false;
-
-isSunnyDay > true
-  ? (console.log("Jesse can go out to play"), (isSunnyDay = true))
-  : (console.log("Jesse stays home"), (isHomeworkCompleted = false));
+let isSunnyDay = true;
+let isHomeworkCompleted = false;
+let outside =
+  isSunnyDay && isHomeworkCompleted == true
+    ? "Jesse can go out to play"
+    : "Jesse stays home";
+console.log(outside);
